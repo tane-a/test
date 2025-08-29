@@ -290,7 +290,7 @@
               });
               $(svgColor)
                 .on("click", colorMe)
-                .attr("aria-label", "車の部品に色を塗る");
+                .attr("aria-label", "ドラえもんの部品に色を塗る");
               $(mainHolder).makeSwatches();
               $(".penHolder").addClass("gray");
               // ズーム機能
@@ -334,7 +334,7 @@
                     });
                     $(svgColor)
                       .on("click", colorMe)
-                      .attr("aria-label", "車の部品に色を塗る");
+                      .attr("aria-label", "ドラえもんの部品に色を塗る");
                     $(mainHolder).makeSwatches();
                     $(".penHolder").addClass("gray");
                     $(svgObject).on("wheel", function (e) {
@@ -383,9 +383,9 @@
         });
       })(jQuery);
 
-      // Google ドライブの共有リンクのFILE_IDを指定
+      // GitHub Pagesのdoraemon.svgを指定
       $("#ActivityDIV").makeSVGcolor(
-        "https://drive.google.com/uc?export=download&id=1Y9iEyG1cs4eqsy-SqZR0mDRkKyW9uIu-",
+        "https://yourusername.github.io/your-repo/doraemon.svg",
         "./car.svg"
       );
       $("#btnRandom").btnRandom();
